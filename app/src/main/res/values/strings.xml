@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MisMapasRCE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="platitud">Latitud</string>
+    <string name="plongitud">Longitud</string>
+    <string name="plugar">Lugar</string>
+    <string name="pzoommin">pzoommin</string>
+    <string name="pzoommax">pzoommax</string>
+    <string name="pzoomini">pzoomini</string>
+    <string name="Lugar01">Antigua Guatemala</string>
+    <string name="Lugar02">Lago de Atitlan</string>
+    <string name="Lugar03">Tikal</string>
+    <string name="Lugar04">Catedral Central</string>
+</resources>

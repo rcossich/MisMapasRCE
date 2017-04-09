@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/LayoutMapas"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Layout01"
+        android:orientation="horizontal"
+        >
+           <ImageButton
+                android:layout_marginLeft="@dimen/margen_boton"
+                android:layout_marginTop="@dimen/margen_boton"
+                android:layout_width="@dimen/tamano_boton"
+                android:layout_height="@dimen/tamano_boton"
+                android:id="@+id/Boton01"
+                android:src="@drawable/antiguaguatemala"
+                android:hint="@string/Lugar01"
+                android:onClick="ClicBoton01" />
+
+
+        <ImageButton
+            android:layout_marginLeft="@dimen/margen_boton"
+            android:layout_marginTop="@dimen/margen_boton"
+            android:layout_width="@dimen/tamano_boton"
+            android:layout_height="@dimen/tamano_boton"
+            android:id="@+id/Boton02"
+            android:src="@drawable/lagoatitlan"
+            android:hint="@string/Lugar02"
+            android:onClick="ClicBoton02" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Layout02"
+        android:layout_below="@id/Layout01"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginLeft="@dimen/margen_boton"
+            android:layout_marginTop="@dimen/margen_boton"
+            android:layout_width="@dimen/tamano_boton"
+            android:layout_height="@dimen/tamano_boton"
+            android:id="@+id/Boton03"
+            android:src="@drawable/parquetikal"
+            android:hint="@string/Lugar03"
+            android:onClick="ClicBoton03" />
+
+        <ImageButton
+            android:layout_marginLeft="@dimen/margen_boton"
+            android:layout_marginTop="@dimen/margen_boton"
+            android:layout_width="@dimen/tamano_boton"
+            android:layout_height="@dimen/tamano_boton"
+            android:id="@+id/Boton04"
+            android:src="@drawable/plazacatedralmetropolitana"
+            android:hint="@string/Lugar04"
+            android:onClick="ClicBoton04" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
